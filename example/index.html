@@ -1,0 +1,32 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <title>Semáforo</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <h1>Semáforo</h1>
+
+  <div class="light red"></div>
+  <div class="light amber"></div>
+  <div class="light green"></div>
+
+  <p id="status">Apagado</p>
+  <p id="countdown"></p>
+
+  <button id="start-btn">▶ Encender</button>
+  <button id="next-btn">⏭ Siguiente</button>
+
+  <div id="toast" class="toast">
+    <span id="toast-message"></span>
+    <button id="close-toast">✕</button>
+  </div>
+
+  <script src="index.js"></script>
+</body>
+
+</html>

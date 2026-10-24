@@ -1,0 +1,39 @@
+/* style.css */
+.light {
+    width: 60px;
+    height: 60px;
+    margin: 8px;
+    border-radius: 50%;
+    /* un cuadrado con las esquinas al 50% es un círculo */
+    background: #333;
+    /* apagada: gris oscuro */
+}
+
+/* encendida = tiene su color Y además la clase "on" */
+.red.on {
+    background: red;
+}
+
+.amber.on {
+    background: orange;
+}
+
+.green.on {
+    background: limegreen;
+}
+
+.toast {
+    visibility: hidden;
+    /* el aviso empieza oculto */
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    padding: 12px;
+    background: #084fba;
+    color: white;
+}
+
+.toast.show {
+    visibility: visible;
+    /* y se ve cuando le ponemos la clase "show" */
+}
